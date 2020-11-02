@@ -14,7 +14,7 @@ def fib_1(x):
     a, b = 0, 1
     for i in range(x):
         a, b = b, a + b
-        print(a)
+        print(a)   # 用return得到返回值
 fib_1(10)
 
 
